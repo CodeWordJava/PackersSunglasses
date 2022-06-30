@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 ;
 
+
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -15,7 +16,7 @@ export default function ButtonAppBar() {
           <IconButton
             size="large"
             edge="start"
-            color="inherit"
+            
             aria-label="menu"
             sx={{ mr: 2 }}
           >
@@ -23,7 +24,10 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             PACKERS
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color='secondary'>Home</Button>
+          <Button color='secondary'>Login</Button>
+          <Button color='secondary'>Share</Button>
+          
         </Toolbar>
       </AppBar>
     </Box>
